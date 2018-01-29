@@ -13,10 +13,9 @@ def download():
     from src.util import helper
 
     urls = [
-        "https://github.com/bitcrystal/ZeroNet/archive/master.zip"
-        #"https://github.com/HelloZeroNet/ZeroNet/archive/master.zip",
-        #"https://gitlab.com/HelloZeroNet/ZeroNet/repository/archive.zip?ref=master",
-        #"https://try.gogs.io/ZeroNet/ZeroNet/archive/master.zip"
+        "https://github.com/HelloZeroNet/ZeroNet/archive/master.zip",
+        "https://gitlab.com/HelloZeroNet/ZeroNet/repository/archive.zip?ref=master",
+        "https://try.gogs.io/ZeroNet/ZeroNet/archive/master.zip"
     ]
 
     zipdata = None
